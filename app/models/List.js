@@ -6,6 +6,6 @@ export default class List {
     this.description = data.description
   }
   get listTemplate() {
-    return `<li>${this.description} <input type="checkbox" name="completed"${this.completed ? "checked" : ""} onclick="app.controllers.todoController.toggleTodoStatus('${this._id}')"> <button onclick="app.controllers.todoController.removeTodo('${this._id}')">DELETE</button></li>`
+    return `<div class="row"><li>${this.description} <input type="checkbox" name="completed"${this.completed ? "checked" : ""} onclick="app.controllers.todoController.toggleTodoStatus('${this._id}')"> <button type="button" class="btn btn-primary" onclick="app.controllers.todoController.removeTodo('${this._id}')">DELETE</button></li></div>`
   }
 }

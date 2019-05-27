@@ -5,7 +5,7 @@ import ImageService from "./image-service.js";
 function _drawBackground() {
   let template = ''
   let image = _is.apiImages
-  template += image.url
+  template += image.large_url
   document.body.style.backgroundImage = `url('${template}')`
 }
 

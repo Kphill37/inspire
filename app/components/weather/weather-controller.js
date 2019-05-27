@@ -7,7 +7,7 @@ function drawWeather() {
 	let temp = _weatherService.Weather.convertToF()
 	console.log(temp)
 	template += temp.toFixed(1) + "° F"
-	document.getElementById("weather").innerText = template
+	document.getElementById("weather").innerHTML = template
 }
 
 export default class WeatherController {
