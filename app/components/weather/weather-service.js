@@ -20,8 +20,11 @@ function _setState(prop, data) {
 }
 
 
+
+
 export default class WeatherService {
 	get Weather() {
+
 		return _state.weather
 	}
 

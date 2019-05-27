@@ -6,14 +6,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Inspire</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body id="bg-image">
-	<div id="weather">
-		Your Weather Template
-	</div>
+	<div class="row">
+		<div class="col-12">
+			<div id="weather">
 
+				<div id="tempte">
+					Your Weather Template
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="quote">
 		The Quote
 	</div>
@@ -21,8 +28,11 @@
 	<div>
 		A Todo List
 		<div id="todo-error"></div>
-		<form onsubmit=""></form>
-		<div id="todos"></div>
+		<div id="add-todos"></div>
+		<ul id="todos">
+
+		</ul>
+	</div>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>

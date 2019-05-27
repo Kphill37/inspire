@@ -2,3 +2,17 @@
   color: red;
   font-size: 2em;
 }
+#bg-image {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#weather {
+  float: right;
+  margin: 5%;
+}
+body {
+  min-height: 100vh;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
