@@ -6,7 +6,8 @@ let _qs = new QuoteService()
 function _drawQuote() {
   let template = ''
   let text = _qs.Quote.body
-  template += text
+  template += `<span title="${_qs.Quote.author}">${text}</span>`
+
   document.getElementById("quote").innerHTML = template
 }
 
