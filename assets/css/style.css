@@ -59,3 +59,13 @@ li {
   margin-top: 20px;
   list-style-type: none;
 }
+.clock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 4px black;
+}
