@@ -7,7 +7,7 @@ function _drawQuote() {
   let template = ''
   let text = _qs.Quote.body
   template += text
-  document.getElementById("quote").innerText = template
+  document.getElementById("quote").innerHTML = template
 }
 
 export default class QuoteController {

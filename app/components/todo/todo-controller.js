@@ -14,8 +14,9 @@ function _drawTodos() {
 
 function _drawForm() {
 	document.getElementById("add-todos").innerHTML = `<form onsubmit="app.controllers.todoController.addTodo(event)">
-		<input size="30" type="text" name="description" placeholder="Add Task Item"> <button type="submit">
-		ADD</button> <span>${_todoService.Todos.length} Item</span><br /> <br />
+	 <span>${_todoService.Todos.length} Item</span><br />
+		<div class="row"><div class="col-6"><input size="20" type="text" name="description" placeholder="Add Task"></div> <button type="submit" class="btn btn-primary">
+		ADD</button></div>
 	</form>`
 }
 

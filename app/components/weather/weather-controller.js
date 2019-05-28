@@ -7,7 +7,8 @@ function drawWeather() {
 	let temp = _weatherService.Weather.convertToF()
 	console.log(temp)
 	template += temp.toFixed(1) + "° F"
-	document.getElementById("weather").innerHTML = template
+	document.getElementById("tempte").innerHTML = `<img src='https://openweathermap.org/img/w/${_weatherService.Weather.icon}.png' alt="Icon">` + template
+	// document.getElementById("weather").innerHTML = template
 }
 
 export default class WeatherController {

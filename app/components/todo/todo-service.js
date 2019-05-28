@@ -62,7 +62,7 @@ export default class TodoService {
 	removeTodo(todoId) {
 		todoApi.delete(todoId)
 			.then(res => {
-				this.getTodos
+				this.getTodos()
 			})
 	}
 
