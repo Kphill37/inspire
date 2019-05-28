@@ -54,3 +54,24 @@ li {
   margin-top: 20px;
   list-style-type: none;
 }
+/* a {
+  float: right;
+  margin: auto auto;
+  position: absolute;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.next {
+  background-color: rgba(254, 255, 254, 0.582);
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+} */
