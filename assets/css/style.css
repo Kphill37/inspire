@@ -42,7 +42,7 @@ body {
 }
 .btn-primary {
   float: right;
-  margin-left: auto;
+  margin-left: 60px;
   font-size: 12px;
 }
 .btn-danger {
